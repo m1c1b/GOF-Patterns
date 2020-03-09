@@ -1,0 +1,7 @@
+@startuml
+abstract class Command {
+    + Command(receiver:Receiver)
+    + {abstract} Execute() : void
+}
+Command --> "_receiver" Receiver
+@enduml
