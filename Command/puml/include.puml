@@ -1,7 +1,0 @@
-@startuml
-!include .\Command.puml
-!include .\ConcreteCommand.puml
-!include .\Invoker.puml
-!include .\Program.puml
-!include .\Receiver.puml
-@enduml

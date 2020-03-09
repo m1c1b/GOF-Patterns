@@ -1,5 +1,0 @@
-@startuml
-class Program {
-    {static} Main() : void
-}
-@enduml

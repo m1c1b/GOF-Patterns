@@ -1,8 +1,0 @@
-@startuml
-class ConcreteCommand {
-    + ConcreteCommand(receiver:Receiver)
-    + <<override>> Execute() : void
-}
-Command <|-- ConcreteCommand
-
-@enduml

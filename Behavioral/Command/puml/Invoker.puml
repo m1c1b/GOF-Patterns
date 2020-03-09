@@ -1,0 +1,7 @@
+@startuml
+class Invoker {
+    + ExecuteCommand() : void
+    + SetCommand(command:Command) : void
+}
+Invoker --> "Command" Command
+@enduml
